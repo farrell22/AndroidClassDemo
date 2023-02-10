@@ -15,22 +15,21 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        val characters = mutableListOf<Character>()
+        val personas = mutableListOf<Persona>()
 
         for (i in 0..30) {
-            characters.add(createCharacter())
+            personas.add(createPersona())
         }
 
-        val adapter = CharacterAdapter(characters)
+        val adapter = PersonaAdapter(personas)
         recyclerView.adapter = adapter
     }
 
-    private fun createCharacter() = Character(
-        name = "Liam",
-        age = Random.nextInt(10, 99),
-        image = R.drawable.baseline_10k_24,
-        universe = "Earth",
-        id = 0,
-        relation = listOf()
+    private fun createPersona() = Persona(
+        name = "Orpheus",
+        starting_level = 1,
+        arcana = "Fool",
+        cultural_origin = "Greco-Roman",
+        weaknesses = listOf()
     )
 }
