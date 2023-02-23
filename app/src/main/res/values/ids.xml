@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="character_region" type="id" />
+    <item name="character_element" type="id" />
+    <item name="character_pokedex" type="id" />
+</resources>
