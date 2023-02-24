@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kroger.classdemoapp.databinding.ActivityMainBinding
+import com.kroger.classdemoapp.model.Character
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {

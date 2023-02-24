@@ -64,7 +64,7 @@
             android:layout_width="132dp"
             android:layout_height="48dp"
             android:textSize="25sp"
-            app:layout_constraintStart_toStartOf="@id/character_image"
+            app:layout_constraintStart_toStartOf="@id/character_name"
             app:layout_constraintTop_toBottomOf="@id/character_startingLevel"
             tools:text="Normal" />
 

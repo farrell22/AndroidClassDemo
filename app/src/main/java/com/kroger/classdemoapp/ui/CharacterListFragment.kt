@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.kroger.classdemoapp.Character
+import com.kroger.classdemoapp.model.Character
 import com.kroger.classdemoapp.CharacterAdapter
 import com.kroger.classdemoapp.R
 import kotlin.random.Random
@@ -54,6 +54,7 @@ class CharacterListFragment : Fragment() {
         }
 
         val adapter = CharacterAdapter(characters)
+
         recyclerView.adapter = adapter
 
         return binding.root
