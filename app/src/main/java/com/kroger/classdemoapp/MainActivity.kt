@@ -8,6 +8,7 @@ import com.kroger.classdemoapp.databinding.ActivityMainBinding
 import com.kroger.classdemoapp.model.Character
 import kotlin.random.Random
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding

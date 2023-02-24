@@ -11,7 +11,7 @@ import com.kroger.classdemoapp.model.Character
 import com.kroger.classdemoapp.CharacterAdapter
 import com.kroger.classdemoapp.R
 import kotlin.random.Random
-
+@AndroidEntryPoint
 class CharacterListFragment : Fragment() {
 
     private var binding: FragmentCharacterListBinding? = null
